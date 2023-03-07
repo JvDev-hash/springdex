@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:6603/pokedexdb?allowPublicKeyRetrieval=true&useSSL=false
+    username: dockeruser
+    password: mypass
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
